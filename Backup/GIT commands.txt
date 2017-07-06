@@ -19,6 +19,7 @@ git init
 //add all our changes we made to our project (. means all)
 git add .
 git add file.txt
+git push //for online
 
 //commit the changes at the current time
 git commit -m "-m means message"
@@ -46,6 +47,9 @@ git checkout 01e7dba -- name.txt
 
 //remove from stagging area to working copy where name.txt is the unstaged file
 git reset HEAD name.txt
+
+//setting up connection between local and remote online project
+git remote add NickName https://github.com/myehjodone/tutorials.git
 
 
 
