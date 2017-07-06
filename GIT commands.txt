@@ -19,7 +19,8 @@ git init
 //add all our changes we made to our project
 git add .
 
-
+//commit the changes at the current time
+git commit -m "-m means message"
 
 
 //clear screen
