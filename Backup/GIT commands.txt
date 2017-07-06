@@ -40,6 +40,14 @@ git rm name.txt
 git mv name.txt name2.txt
 git mv name.txt BackUp/name.txt
 
+//take file from repository and make it to my working copy (undo changes)
+git checkout -- name.txt
+git checkout 01e7dba -- name.txt
+
+//remove from stagging area to working copy where name.txt is the unstaged file
+git reset HEAD name.txt
+
+
 
 
 
