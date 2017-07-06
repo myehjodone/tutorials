@@ -1,0 +1,37 @@
+//gets the version of git
+git --version
+
+//git help
+git help [command] 
+ex. $git help commit
+
+//configure my settings and change my username 
+git config --global user.name "Michael Yeh"
+git config --global user.email myeh@jodone.com
+git config user.email -> just email
+
+//list out config files
+git config --list
+
+//initialize empty Git repsitory (start new project)
+git init
+
+//add all our changes we made to our project
+git add .
+
+
+
+
+//clear screen
+clear
+
+//current directory
+pwd
+
+//change directory home
+cd ~
+//backwards
+cd ..
+
+//list hidden files
+ls -la
