@@ -30,7 +30,17 @@ git log --author "Michael"
 git status
 
 //view changes that you made
-git diff
+git diff // compare difference in stagging area with working tree
+git diff --staged // compare difference in stagging area with repository
+
+//delete files
+git rm name.txt
+
+//rename file to name2.txt
+git mv name.txt name2.txt
+git mv name.txt BackUp/name.txt
+
+
 
 
 
