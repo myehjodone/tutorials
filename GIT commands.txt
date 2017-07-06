@@ -29,6 +29,10 @@ git log --author "Michael"
 //there are no files that you are working on that Git isnt keeping track of 
 git status
 
+//view changes that you made
+git diff
+
+
 
 //clear screen
 clear
