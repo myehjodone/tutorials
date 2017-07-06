@@ -20,6 +20,7 @@ git init
 git add .
 git add file.txt
 git push //for online
+git push -u NickName master
 
 //commit the changes at the current time
 git commit -m "-m means message"
@@ -41,9 +42,34 @@ git rm name.txt
 git mv name.txt name2.txt
 git mv name.txt BackUp/name.txt
 
-//take file from repository and make it to my working copy (undo changes)
+//take file from repository and make it to my working copy (undo uncommitted changes)
 git checkout -- name.txt
 git checkout 01e7dba -- name.txt
+git checkout master // move to head of branch
+
+//add new commit. reverts back to previous commit while creating a new commit to say that
+//we have redone to the previous commit
+git revert 01e7dba
+
+//reset and delete all other commits
+git reset 01e7dba --hard
+
+1. //create branch away from master
+git branch any_branch_name  
+2. //change to branch path
+git checkout any_branch_name
+// create and change to branch path 1 + 2
+git checkout -b any_branch_name
+
+// show what branches there are 
+git branch -a
+
+//delete a branch
+git branch -D any_branch name
+
+//merge branch into master. has to be on master branch to merge with master
+git merge any_branch_name 
+
 
 //remove from stagging area to working copy where name.txt is the unstaged file
 git reset HEAD name.txt
