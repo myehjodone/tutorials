@@ -75,6 +75,7 @@ git reset HEAD name.txt
 
 //setting up connection between local and remote online project
 git remote add NickName https://github.com/myehjodone/tutorials.git
+git remote -v //view the current url repo you cloned your file
 
 //clone download repo onto local directory change directory 
 git clone git_url
