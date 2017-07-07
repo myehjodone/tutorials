@@ -70,14 +70,17 @@ git branch -D any_branch name
 //merge branch into master. has to be on master branch to merge with master
 git merge any_branch_name 
 
-
 //remove from stagging area to working copy where name.txt is the unstaged file
 git reset HEAD name.txt
 
 //setting up connection between local and remote online project
 git remote add NickName https://github.com/myehjodone/tutorials.git
 
+//clone download repo onto local directory change directory 
+git clone git_url
+ex. git clone https://github.com/myehjodone/tutorials.git
 
+//push upto repository 
 
 
 
